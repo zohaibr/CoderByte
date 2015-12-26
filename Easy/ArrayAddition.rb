@@ -6,10 +6,7 @@
 
 def ArrayAddition(arr)
   largest = arr.sort!.pop
-
-  end
-
-
+  arr.inject(0) {|sum, number| sum += number} == largest ? true:false  
 end
 
 puts ArrayAddition([54,49,1,0,7,4])
