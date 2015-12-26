@@ -4,7 +4,7 @@
 #example above. So "55Hello" and "5Hello 5" should return two different answers. Each string will contain at least 
 #one letter or symbol. 
 
-def number_search(str)
+def NumberAddition(str)
   num_hold = []
   num_arr = []
 
@@ -25,5 +25,5 @@ def number_search(str)
 end
 
 
-puts number_search("75Number9") #== 84
-puts number_search("10 2One Number*1*") #== 13
+puts NumberAddition("75Number9") #== 84
+puts NumberAddition("10 2One Number*1*") #== 13
