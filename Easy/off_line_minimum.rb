@@ -6,4 +6,5 @@
 #should return 4,1,5. 
 
 def off_line_minimum(strArr)
+  
 end
